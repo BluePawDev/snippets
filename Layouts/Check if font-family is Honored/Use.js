@@ -1,1 +1,0 @@
-var iconFontHonored = checkFont('icomoon');
