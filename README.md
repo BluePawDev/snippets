@@ -8,6 +8,15 @@ This snippet library is a "living" repository in that it is to be continuously m
 
 Please contact [Jason Ruby](mailto:jaruby@me.com) with any questions.
 
+## Table of Contents
+#### [UI Standard Tools](https://github.com/BluePawDev/snippets/tree/master/Resources/UI%20Standard%20Tools)
+#### [Data Manipulation](https://github.com/BluePawDev/snippets/tree/master/Resources/Data%20Manipulation)
+#### [Forms](https://github.com/BluePawDev/snippets/tree/master/Resources/Forms)
+#### [Layout](https://github.com/BluePawDev/snippets/tree/master/Resources/Layouts)
+#### [Tables](https://github.com/BluePawDev/snippets/tree/master/Resources/Tables)
+#### [Templates](https://github.com/BluePawDev/snippets/tree/master/Resources/Templates)
+#### [jQuery Specific](https://github.com/BluePawDev/snippets/tree/master/Resources/jQuery)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -19,12 +28,3 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Table of Contents
-#### [UI Standard Tools](https://github.com/BluePawDev/snippets/tree/master/Resources/UI%20Standard%20Tools)
-#### [Data Manipulation](https://github.com/BluePawDev/snippets/tree/master/Resources/Data%20Manipulation)
-#### [Forms](https://github.com/BluePawDev/snippets/tree/master/Resources/Forms)
-#### [Layout](https://github.com/BluePawDev/snippets/tree/master/Resources/Layouts)
-#### [Tables](https://github.com/BluePawDev/snippets/tree/master/Resources/Tables)
-#### [Templates](https://github.com/BluePawDev/snippets/tree/master/Resources/Templates)
-#### [jQuery Specific](https://github.com/BluePawDev/snippets/tree/master/Resources/jQuery)
