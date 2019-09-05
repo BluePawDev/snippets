@@ -1,6 +1,6 @@
 # Configuring a Site with Sentry Bug Tracking
 
-
+## Setup
 A site must have a project within Sentry. If there is no project one will need to be created. To create the project follow the following steps within Sentry:
 
 1. Click _Projects_ in the panel along the left side of the screen.
@@ -18,13 +18,13 @@ Once a project is created you will need the DSN information in order to set it u
 4. Click _Client Keys (DSN)_ in the menu on the left side of the screen.
 5. Use the _DSN_ value in the directions below.
 
-Coldfusion
+## Coldfusion
 
 The website code now needs to be modified to incorporate the sentry information. To do this, follow the steps below:
 
-1. In **A**** pplication.cfc**:
+1. In **Application.cfc**:
   1. **onApplicationStart()**
-    1. Add this code before **load**** CFC ****s** call:
+    1. Add this code before **loadCFCs** call:
 
 application.sentry = new vansonbase.model.sentry(
 
