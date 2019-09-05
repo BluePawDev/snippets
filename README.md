@@ -19,3 +19,11 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Table of Contents
+#### [Data Manipulation](https://github.com/BluePawDev/snippets/tree/master/Data%20Manipulation)
+#### [Forms](https://github.com/BluePawDev/snippets/tree/master/Forms)
+#### [Layout](https://github.com/BluePawDev/snippets/tree/master/Layouts)
+#### [Tables](https://github.com/BluePawDev/snippets/tree/master/Tables/)
+#### [Templates](https://github.com/BluePawDev/snippets/tree/master/Templates)
+#### [jQuery Specific](https://github.com/BluePawDev/snippets/tree/master/jQuery)
