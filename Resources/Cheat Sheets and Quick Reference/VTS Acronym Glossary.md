@@ -3,11 +3,11 @@
     <dt><strong>APAC</strong></dt>
     <dd><em><strong>A</strong>sia-<strong>Pac</strong>ific</em>, a content audience as it relates to the designated geographic theater/region for RR4A.</dd>
     <dt><strong>AR</strong></dt>
-    <dd>Audience Rewards.</dd>
+    <dd><em><strong>A</strong>udience <strong>R</strong>ewards</em>.</dd>
     <dt><strong>ARC</strong></dt>
-    <dd>number issued to accredited agencies by Airlines Report Corporation (ARC) and used to book travel accommodations such as hotel stays, cruise ship reservations, etc. An ARC number is typically seen within Radisson environments, specifically Radisson Rewards for Business (RR4B), formerly LookToBook.</dd>
+    <dd>Number issued to accredited agencies by <em><strong>A</strong>irlines <strong>R</strong>eport <strong>C</strong>orporation (ARC)</em> and used to book travel accommodations such as hotel stays, cruise ship reservations, etc. An ARC number is typically seen within Radisson environments, specifically <em>Radisson Rewards for Business (RR4B)</em>, formerly LookToBook.</dd>
     <dt>CAG</dt>
-    <dd>Certif-a-Gift</dd>
+    <dd><em><strong>C</strong>ertif-<strong>a</strong>-<strong>G</strong>ift</em>.</dd>
     <dt>CC4E</dt>
     <dd>formerly Carlson Club for Employees (CC4E), now known as Radisson Rewards for Ambassadors (RR4A).</dd>
     <dt>CLIA</dt>
