@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Snippet Library
 
-You can use the [editor on GitHub](https://github.com/BluePawDev/snippets/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This snippet library is open source.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It was built specifically for use by developers of [Vanson Technology Services, Inc.](http://www.vansontech.com/) (*VTS*) and maintained by [Jason Ruby](https://github.com/BluePawDev).
 
-### Markdown
+This snippet library is a "living" repository in that it is to be continuously maintained and updated with examples of best practices and implementations as they pertain to the clients served by VTS.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Please contact [Jason Ruby](mailto:jaruby@me.com) with any questions.
 
-```markdown
-Syntax highlighted code block
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-# Header 1
-## Header 2
-### Header 3
+## Sources
 
-- Bulleted
-- List
+All efforts will be made to provide proper credit and acknowledgement to those individuals who have contributed--explicitly or though open source publication--to this repository.
 
-1. Numbered
-2. List
+Please make sure to update tests as appropriate.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BluePawDev/snippets/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
