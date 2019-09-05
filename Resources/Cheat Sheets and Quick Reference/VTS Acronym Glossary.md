@@ -1,7 +1,7 @@
 # VTS Acronym Glossary
 <dl>
     <dt><strong>APAC</strong></dt>
-    <dd>Asia-Pacific, a content audience as it relates to the designated geographic theater/region for RR4A.</dd>
+    <dd><i><u>A</u>sia-<u>Pac</u>ific</i>, a content audience as it relates to the designated geographic theater/region for RR4A.</dd>
     <dt><strong>AR</strong></dt>
     <dd>Audience Rewards.</dd>
     <dt><strong>ARC</strong></dt>
