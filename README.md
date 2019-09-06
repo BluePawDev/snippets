@@ -13,10 +13,11 @@ Please contact [Jason Ruby](mailto:jaruby@me.com) with any questions.
 #### [Data Manipulation](https://github.com/BluePawDev/snippets/tree/master/Resources/Data%20Manipulation)
 #### [Database](https://github.com/BluePawDev/snippets/tree/master/Resources/Database/)
 #### [Forms](https://github.com/BluePawDev/snippets/tree/master/Resources/Forms)
+#### [jQuery Specific](https://github.com/BluePawDev/snippets/tree/master/Resources/jQuery)
 #### [Layout](https://github.com/BluePawDev/snippets/tree/master/Resources/Layouts)
 #### [Tables](https://github.com/BluePawDev/snippets/tree/master/Resources/Tables)
 #### [Templates](https://github.com/BluePawDev/snippets/tree/master/Resources/Templates)
-#### [jQuery Specific](https://github.com/BluePawDev/snippets/tree/master/Resources/jQuery)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
