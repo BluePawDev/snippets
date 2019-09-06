@@ -10,6 +10,7 @@ Please contact [Jason Ruby](mailto:jaruby@me.com) with any questions.
 
 ## Table of Contents
 #### [UI Standard Tools](https://github.com/BluePawDev/snippets/tree/master/Resources/UI%20Standard%20Tools)
+#### [Cheat Sheets & Quick Reference](https://github.com/BluePawDev/snippets/tree/master/Resources/Cheat%20Sheets%20and%20Quick%20Reference)
 #### [Data Manipulation](https://github.com/BluePawDev/snippets/tree/master/Resources/Data%20Manipulation)
 #### [Database](https://github.com/BluePawDev/snippets/tree/master/Resources/Database/)
 #### [Forms](https://github.com/BluePawDev/snippets/tree/master/Resources/Forms)
