@@ -1,3 +1,5 @@
+/* Provided by Mark Phillips (mark.phillips@vansontech.com) */
+
 
 /* jQuery Password Strength Meter for Twitter Bootstrap */
 /* https://github.com/ablanco/jquery.pwstrength.bootstrap */

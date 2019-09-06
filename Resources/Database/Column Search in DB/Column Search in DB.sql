@@ -1,3 +1,5 @@
+/* Provide by Kelly Schrader (kelly.schrader@vansontech.com) */
+
 DECLARE @ColumnName VARCHAR(50)
 
 SET @ColumnName = 'TerritoryID'

@@ -1,3 +1,5 @@
+/* Provide by Kelly Schrader (kelly.schrader@vansontech.com) */
+
 /* jQuery Validate */
 <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/additional-methods.min.js"></script>
