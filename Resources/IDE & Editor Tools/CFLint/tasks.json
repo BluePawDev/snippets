@@ -1,0 +1,17 @@
+/* Provided by Ken John (ken.john@vansontech.com) */
+
+/* This file--tasks.json--can be added to the .vscode directory within a Visual Studio Code workspace.
+Running this taks will generate a CFLint result file named cflint-result.html for the entire workspace.
+The cflint-result.html will be placed in the wwwroot directory of the workspace. The file will be updated/overwritten each time the task is run.
+For documentation about the tasks.json format see https://go.microsoft.com/fwlink/?LinkId=733558 */
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CFLint Folder Scan",
+            "type": "shell",
+            "command": "java -jar F:\\CFLint\\CFLint-1.4.1-all.jar -folder ${workspaceRoot}/www/wwwroot"
+        }
+    ]
+}
