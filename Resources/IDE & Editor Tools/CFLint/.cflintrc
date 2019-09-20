@@ -1,0 +1,17 @@
+/* Provided by Ken John (ken.john@vansontech.com) as found in the CFLint GitHub repository README.md file (https://github.com/cflint/CFLint#ignoring-a-directory-for-processing)*/
+
+/* This custom .cflintrc file can be used to ignore processing by CFLint for specific directories. The directories will still be scanned by CFLint; however, the resulting violations of configured CFLint rules will not be enumerated and will essentially be ignored. This applies not only to local CFLint scans, but to Jenkins builds and the related Quality Gate thresholds as well. As such, placing this custom .cflintrc file into directories such as the Taffy directory (e.g. ../www/wwwroot/Admin/api/v1/taffy), WEB-INF (e.g. ../www/wwwroot/WEB-INF), or other third-party frameworks, libraries, plugins, an includes will mitigate CFLint errors beyond developer control. */
+
+/* IMPLEMENT:
+    1. Using Notepad, or another file editor, create and save a file named .cflintrc.
+    2. Copy/paste the syntax from line 11 through line 17 below into the file.
+    3. Save, copy, or move the file to the directory to be ignored.
+*/
+
+{
+	"rule": [],
+	"excludes": [],
+	"includes": [{}],
+	"inheritParent": false,
+	"parameters": {}
+}
