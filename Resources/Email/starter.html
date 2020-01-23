@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- HTML5 DOCTYPE renders well and is the most current standard for HTML email. XHTML 1.0 Transitional, while previously the best option for HTML email rendering, is no longer best practices;  -->
+
+<html lang="en">
+<!-- Always set the lang attribute. Be sure to localize for audiances. Particularly important for assistative technologies/accessability. The lang is a global attribute therefore can be set on any HTML tag (e.g. the email may be in English with disclaimers/legal localized). -->
+
+<head>
+
+    <title></title>
+    <!-- While not used in most email clients, research shows a lot of people triage their emails/inbox in a browser. Setting the <title> with the organization name, an abbreviated subject line inserted with a merge tage, or call to action is helpful as it will populate the browser tab as a reminder for users to come back to the "view in browser" email triage. Setting the <title> is also helpful for users who rely on screen readers for assistative technology. -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Declaring the charset as utf-8 ensures proper rendering especially if using HTML character entities -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures the email has the ability to be responsive. Do not disable zoom settings to override user's preferences. -->
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- A boilerplate setting to help make things more compatible for Microsoft products or any platform using IE/IE Edge.
+    Assists with random buggy behavior typical to rendering in Microsoft products such as Outlook clients. -->
+
+    <style type="text/css">
+        /* Some CSS can be placed here although most should be inline to prevent being stripped out by email clients as many clients strip out the <head> as part of processing the email. */
+    </style>
+
+</head>
+
+<body id="body" style="Margin: 0 !important; padding: 0 !important"></body>
+<!-- Inline style to override margin and padding and zero out so email clients don't introduce extra space as some do by default.
+    Additionally, capitalizing "Margin" can prevent Outlook clients from stripping out margin settings. -->
+
+
+</body>
+
+</html>
