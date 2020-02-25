@@ -2,6 +2,17 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="local.reset.css">
+    <!-- <link rel="stylesheet" href="typography.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!-- <script src="vendor-sources.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 
 </head>
@@ -19,27 +30,46 @@
             <li></li>
         </ul>
     </nav>
-    <h1></h1>
+    <h1>Heading 1</h1>
     <figure></figure>
-    <figcaption></figcaption>
+    <figcaption>fig. caption</figcaption>
     <main>
-        <form method="post" name="register" id="register-form" class="form">
-            <h2>Register</h2>
-            <label for="first-name" form="register-form">First Name:</label>
-            <input type="text" name="first-name" id="first-name">
-            <label for="last-name" form="register-form">Last Name:</label>
-            <input type="text" name="last-name" id="last-name">
-            <label for="dob" form="register-form">DOB:</label>
-            <input type="date" name="dob" id="dob">
-            <label for="email" form="register-form">Email:</label>
-            <input type="email" name="email" id="email">
-            <label for="phone" form="register-form">Phone:</label>
-            <input type="tel" name="phone" id="phone">
+        <div>
+            <form method="post" name="register" class="form">
+                <h2>Heading 2: Register</h2>
+                <div class="div-form">
+                    <label for="first-name" form="register-form" aria-required="true" requried>First Name:</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="div-form">
+                    <label for="last-name" form="register-form">Last Name:</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                <div class="div-form">
+                    <label for="dob" form="register-form">DOB:</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div class="div-form">
+                    <label for="email" form="register-form" aria-required="true">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="div-form">
+                    <label for="phone" form="register-form" aria-required="true">Phone:</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
 
-            <input type="submit">
-            <input type="reset">
+                <!-- <button type="submit" class="btn-submit"></button> -->
+                <!-- <button type="reset" class="btn-reset"></button> -->
+                <!-- <button type="button" class="btn-cancel"></button> -->
 
-        </form>
+
+                <input type="submit" class="btn-submit btn btn-sm btn-primary" value="Submit">
+                <input type="reset" class="btn-reset btn btn-sm btn-warning" value="Reset">
+                <input type="button" class="btn-cancel btn btn-sm btn-secondary" value="Cancel">
+                <input type="button" class="btn-delete btn btn-sm btn-danger" value="Delete">
+
+            </form>
+        </div>
     </main>
     <footer></footer>
 

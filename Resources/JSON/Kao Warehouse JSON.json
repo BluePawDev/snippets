@@ -1,0 +1,587 @@
+{
+    "categories": [{
+        "id": 1000,
+        "label": "Goldwell",
+        "children": [
+
+            {
+                "id": 1100,
+                "label": "Permanent",
+                "children": [{
+                        "id": 1110,
+                        "label": "Elumen",
+                        "children": []
+                    },
+                    {
+                        "id": 1120,
+                        "label": "Nectaya",
+                        "children": []
+                    },
+                    {
+                        "id": 1130,
+                        "label": "Topchic",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": 1300,
+                "label": "Demi/Semi Permanent",
+                "children": [{
+                        "id": 1310,
+                        "label": "Colorance",
+                        "children": []
+                    },
+                    {
+                        "id": 1320,
+                        "label": "Elumen Play",
+                        "children": []
+                    },
+                    {
+                        "id": 1330,
+                        "label": "Men ReShade",
+                        "children": []
+                    },
+                    {
+                        "id": 1340,
+                        "label": "Soft Color",
+                        "children": []
+                    }
+
+                ]
+            },
+            {
+                "id": 1600,
+                "label": "Lightener",
+                "children": [{
+                        "id": 1610,
+                        "label": "New Blonde",
+                        "children": []
+                    },
+                    {
+                        "id": 1620,
+                        "label": "Oxycur",
+                        "children": []
+                    },
+                    {
+                        "id": 1630,
+                        "label": "SilkLift",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": 1900,
+                "label": "Other",
+                "children": [{
+                    "id": 1910,
+                    "label": "System",
+                    "children": []
+                }]
+            }
+
+        ]
+    }],
+
+    "products": [{
+            "productId": 1001,
+            "title": "Topchic Permanent Hair Color",
+            "categoryId": 1130,
+            "brand": "Topchic",
+            "description": "DISCOVER A HOLISTIC COLOR SYSTEM.  Sixty patents and more than forty years of continual innovation have made Topchic Permanent Hair Color one of the best professional brands in the world. <ul><li>100% Grey Coverage</li><li>Ultimate Durability</li><li>Excellent Evenness</li><li>Optimum Gentleness</li></ul>",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Topchic Hair Color",
+                    "url": "http://sasa.salonlibrary.com/library/preview/436252aa67410eb1d7ebb639d3bd39ea.png"
+                }
+            },
+            "prices": [{
+                    "title": "cans",
+                    "price": 30.25,
+                    "sku": ""
+                },
+                {
+                    "title": "tubes",
+                    "price": 8.35,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                    "title": "Goldwell Paper Shade Chart",
+                    "url": "/uploaded/warehouse/Goldwell Paper Shade Chart 05-2019.pdf"
+                },
+                {
+                    "title": "Goldwell Topchic Activation Guide",
+                    "url": "/Uploaded/warehouse/Goldwell Topchic Activation Guide 05-2018.pdf"
+                }
+            ]
+        },
+        {
+            "productId": 1002,
+            "title": "Topchic Developer Lotion",
+            "categoryId": 1130,
+            "brand": "Topchic",
+            "description": "<b>Intelligent Hair Color</b> Great consistency for ideal spreadability and perfect adherence of the color to the hair. With IntraLipid for ideal combability and smoothness. Available in 3% (10vol.), 6% (20vol.), 9% (30vol.) and 12% (40vol.).",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Topchic Developer Lotion",
+                    "url": "http://sasa.salonlibrary.com/library/preview/ee64574f07992b0fa1463ad0b6a48734.png"
+                }
+            },
+            "prices": [{
+                "title": "each",
+                "price": 8.75,
+                "sku": ""
+            }],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/Goldwell Topchic Activation Guide 05-2018.pdf"
+            }]
+        },
+        {
+            "productId": 1003,
+            "title": "Nectaya Hair Color",
+            "categoryId": 1120,
+            "brand": "Nectaya",
+            "description": "<b>Color with Care</b>  COLOR RESULTS WITHOUT COMPROMISE.<ul><li> Nurturing hair color – without ammonia-odor</li><li> Notably healthier hair feeling</li><li> Rich saturated color</li><li> Guaranteed grey coverage – up to 100%</li></ul>",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Nectaya Hair Color",
+                    "url": "http://sasa.salonlibrary.com/library/preview/f27d878756fe171bc555cdc851be8946.png"
+                }
+            },
+            "prices": [{
+                "title": "each",
+                "price": 10.00,
+                "sku": ""
+            }],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/Golwell Nectaya Paper Shade Chart 02-2018.pdf"
+            }]
+        },
+        {
+            "productId": 1004,
+            "title": "Nectaya Developer Lotion",
+            "categoryId": 1120,
+            "brand": "Nectaya",
+            "description": "<b>Color with Care</b> The creamy consistency is easy to apply and pleasant to work with. Rich formula available in 3% (10vol.), 6% (20vol.), 9% (30vol.) and 12% (40vol.) to meet all color needs.",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Nectaya Developer Lotion",
+                    "url": "http://sasa.salonlibrary.com/library/preview/807f07783884f6a19751d626939340b1.png"
+                }
+            },
+            "prices": [{
+                "title": "each",
+                "price": 8.95,
+                "sku": ""
+            }],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/Goldwell Nectaya Activation Guide 02-2018.pdf"
+            }]
+        },
+        {
+            "productId": 1005,
+            "title": "Elumen Hair Color ",
+            "categoryId": 1110,
+            "brand": "Elumen",
+            "description": "<b>Elumenate the Hair </b> ACHIEVE INTENSIVE, PEERLESS RESULTS WITHOUT OXIDATION. <ul><li> Intense and brilliant colors with exceptional shine </li><li> Remarkable and incredible durability</li><li> Amazing, healthy looking hair</li><li>Without oxidation and without ammonia</li></ul>",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Elumen Hair Color ",
+                    "url": "http://sasa.salonlibrary.com/library/preview/b0a120050fea8b93a9da506e60cb6f1e.png"
+                }
+            },
+            "prices": [{
+                "title": "each",
+                "price": 16.50,
+                "sku": ""
+            }],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/Elumen Relaunch 5P19_Elumen Activation and Technique Guide.pdf"
+            }]
+        },
+        {
+            "productId": 1006,
+            "title": "Elumen Hair Color Support",
+            "categoryId": 1110,
+            "brand": "Elumen",
+            "description": "ELUMEN PREPARE: Pre-Treatment for extremely damaged or highlifted/highlighted hair. It instantly equalizes structural differences and optimizes color deposit on hair for an even & long lasting color result.Elumen Return: Hair color reducer used immediately after coloration with Elumen or in future to reduce unwanted depth, vibrancy or tone.  Price: $8.15 <br><br>ELUMEN CLEAN: For the gentle and thorough removal of skin staining caused by Elumen hair color. Price: $11.50 <br><br>ELUMEN LOCK: Reduces fading of Elumen hair color and increases durability. Remaining color pigments are deeply drawn into the hair. Removes excess color pigments from the surface of the hair.  Price: $11.50 <br><br>ELUMEN THICKENER: Add the Elumen Thickener to any Elumen formula to create the perfect viscosity for your service. Don’t worry about bleeding even when placing contrasting tones next to each other.  Price: $24.50 <br>",
+            "display_price": "false",
+            "images": {
+                "default": {
+                    "title": "Elumen Hair Color Support",
+                    "url": "http://sasa.salonlibrary.com/library/preview/a134a1574c1f9a07a0178d4b8983f253.png"
+                }
+            },
+            "prices": [{
+                    "title": "each",
+                    "price": 8.15,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 11.50,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 11.50,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 24.50,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/Elumen Relaunch 5P19_Elumen Activation and Technique Guide.pdf"
+            }]
+        },
+        {
+            "productId": 1007,
+            "title": "Colorance Demi-Permanent Color",
+            "categoryId": 1310,
+            "brand": "Colorance",
+            "description": "DISCOVER MORE SHINY COLOR RESULTS.<ul><li> Brilliant shine</li><li> Smooth hair feel</li><li> Outstanding gentleness</li><li> Without ammonia odor</li></ul>",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Colorance Hair Color",
+                    "url": "http://sasa.salonlibrary.com/library/preview/d8ecf8458118d14a3758b665d5aac349.png"
+                }
+            },
+            "prices": [{
+                    "title": "Cans",
+                    "price": 15.75,
+                    "sku": ""
+                },
+                {
+                    "title": "Tubes",
+                    "price": 8.25,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                    "title": "",
+                    "url": "/Uploaded/warehouse/GW Colorance Activation Guide 05-2019.pdf"
+                },
+                {
+                    "title": "",
+                    "url": "/Uploaded/warehouse/GW Colorance Paper Shade Chart 07-2017.pdf"
+                }
+            ]
+        },
+        {
+            "productId": 1008,
+            "title": "Colorance Developer Lotion",
+            "categoryId": 1310,
+            "brand": "Colorance",
+            "description": "COLORANCE LOTION: Especially designed to work with Colorance – perfectly suited for use with applicator bottle.<br>COVER PLUS LOTION: Especially designed to work with Colorance Cover Plus – perfectly suited for use with bowl and brush.<br>EXPRESS TONING LOTION: Especially designed to work with Colorance Express Toning – perfectly suited for use with applicator bottle.<br>",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Colorance Developer Lotion",
+                    "url": "http://sasa.salonlibrary.com/library/preview/6ee76145485416b8354bf399e4641484.png"
+                }
+            },
+            "prices": [{
+                "title": "each",
+                "price": 10.50,
+                "sku": ""
+            }],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/GW Colorance Activation Guide 05-2019.pdf"
+            }]
+        },
+        {
+            "productId": 1009,
+            "title": "Elumen Play Hair Color",
+            "categoryId": 1320,
+            "brand": "Elumen Play",
+            "description": "Create using vivid and pastel shades - on their own or custom mix and match! Fades on tone and can be removed easily.<br>",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Elumen Play Hair Color",
+                    "url": "http://sasa.salonlibrary.com/library/preview/ed74034c4616470cd8068c7f2942d720.png"
+                }
+            },
+            "prices": [{
+                "title": "each",
+                "price": 9.95,
+                "sku": ""
+            }],
+            "pdf_url": [{
+                    "title": "",
+                    "url": "/Uploaded/warehouse/Elumen Relaunch 5P19_Play Activation and Technique Guide.pdf"
+                },
+                {
+                    "title": "",
+                    "url": "/Uploaded/warehouse/Elumen Relaunch 5P19_Play Paper Shade Chart.pdf"
+                }
+            ]
+        },
+        {
+            "productId": 1010,
+            "title": "Men ReShade Semi-Permanent Color ",
+            "categoryId": 1330,
+            "brand": "Men ReShade",
+            "description": "MEN RESHADE HAIR COLOR - For consistently natural, transparent grey reduction without helmet effect, no visible regrowth. Hybrid Foam Technology works in only 5 minutes. Tone Guard Technology for consistently natural and masculine color.  Price: $19.25 <br><br>MEN RESHADE DEVELOPER AND APPLICATOR: Special developer lotion for guaranteed application time of 5 minutes. Color components are mixed in the special Men ReShade applicator bottle and applied as foam consistency.  Price: $18.50 <br><br>",
+            "display_price": "flase",
+            "images": {
+                "default": {
+                    "title": "Men ReShade",
+                    "url": "http://sasa.salonlibrary.com/library/preview/b432051629b10d796a5998d0a8674b7c.png"
+                }
+            },
+            "prices": [{
+                    "title": "each",
+                    "price": 19.25,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 18.50,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/KAOT_1827181 Men Reshade Flyer-FINALhomeoffice.pdf"
+            }]
+        },
+        {
+            "productId": 1011,
+            "title": "SilkLift High Performance Lightener",
+            "categoryId": 1630,
+            "brand": "SilkLift",
+            "description": "High Performance Lighteners with even, clearer results thanks to Anti-Yellow System and protection with the proven ShieldTechnology. 'Strong' for strong lifting of up to 7 levels.  Price: $30.50 <br><br>GENTLE (without ammonia/without ammonia odor) for gentle lifting of up to 5 levels.  Price: $30.50 <br><br>SILKLIFT INTENSIVE CONDITIONING CONCENTRATE: With double conditioning effect. Additional care for stressed hair – with SilkproteinComplex and IntraLipid. Optimal handling and measuring. To upgrade the premium service, add the serum to the premixed working mass in front of your clients.  Price: $39.95",
+            "display_price": "false",
+            "images": {
+                "default": {
+                    "title": "Topchic Hair Color",
+                    "url": "http://sasa.salonlibrary.com/library/preview/26cdc9cc0204689b16a1bb3e00003983.png"
+                }
+            },
+            "prices": [{
+                    "title": "each",
+                    "price": 30.50,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 30.50,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 39.95,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/GW SilkLift Activation Guide 01-2018.pdf"
+            }]
+        },
+        {
+            "productId": 1012,
+            "title": "SilkLift Control Lightener",
+            "categoryId": 1630,
+            "brand": "SilkLift",
+            "description": "CONTROL BEIGE LEVEL 6-8: Predictable, clean, neutral blonde – even on pre-colored hair and darker bases such as level 6-8.  Create perfect lift while counteracting the warmth. Up to 7 levels of lift plus controlling pigments. With the familiar SilkLift gentleness.  Price: $36.99 <br><br>CONTROL ASH LEVEL 5-7: Predictable, clean, neutral blonde – even on pre-colored hair and darker bases such as level 5-7. Create perfect lift while counteracting the warmth. Up to 7 levels of lift plus controlling pigments. With the familiar SilkLift gentleness.  Price: $36.99<br><br>CONTROL ESSENTIAL TONE STABILIZER: Ensures that color pigments remain stable during and after the lightening process. Use is mandatory.  Price: $8.50",
+            "display_price": "false",
+            "images": {
+                "default": {
+                    "title": "SilkLift Control Lightener",
+                    "url": "http://sasa.salonlibrary.com/library/preview/5e81dc07163cca5b567099fc6b32a2cf.png"
+                }
+            },
+            "prices": [{
+                    "title": "each",
+                    "price": 36.99,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 36.99,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 8.50,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/GW SilkLift Activation Guide 01-2018.pdf"
+            }]
+        },
+        {
+            "productId": 1013,
+            "title": "SilkLift Developer Lotion",
+            "categoryId": 1630,
+            "brand": "SilkLift",
+            "description": "With SilkproteinComplex and IntraLipid for conditioning during the lightening process. Even results thanks to ultra-creamy consistency.  Available in 3% (10vol.), 6% (20vol.) and 9% (30vol.).",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "SilkLift Developer Lotion",
+                    "url": "http://sasa.salonlibrary.com/library/preview/5366d57e29bcc5fca909cd2033722230.png"
+                }
+            },
+            "prices": [{
+                "title": "each",
+                "price": 8.50,
+                "sku": ""
+            }],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/GW SilkLift Activation Guide 01-2018.pdf"
+            }]
+        },
+        {
+            "productId": 1014,
+            "title": "Oxycur Platin Dustfree Lightener",
+            "categoryId": 1620,
+            "brand": "Oxycur",
+            "description": "Meets all bleaching service demands ranging from subtle highlights to extreme lift. For powerful and gentle results. Pleasant and easy to work with – mixes easily into a creamy consistency. Dust-free blue powder bleach for lifting the hair up to 7 levels.  Price: $500g - $20.95  /  1000g - $32.50",
+            "display_price": "false",
+            "images": {
+                "default": {
+                    "title": "Oxycur Platin Lightener",
+                    "url": "http://sasa.salonlibrary.com/library/preview/c6b8cac23cd24ce8855ce6c2e7397d77.png"
+                }
+            },
+            "prices": [{
+                    "title": "each",
+                    "price": 20.95,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 32.50,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/Goldwell Oxycur Platin Fact Sheet 01-2018.pdf"
+            }]
+        },
+        {
+            "productId": 1015,
+            "title": "New Blonde",
+            "categoryId": 1610,
+            "brand": "New Blonde",
+            "description": "5-minute service to make your highlights service unique and delight your clients. New Blonde only lightens the darker natural hair just enough to break up harsh contrasts.<br><br>NEW BLONDE BASE LIFTING CREAM: Interactive dyestuff combination for the self-regulating neutralization of warm pigments. Neutral results without brassiness – with just one product. For every base level (Natural base levels 5–9).  Price $10.75 <br><br>NEW BLONDE LOTION: The matching lotion acts as an accelerator to ensure fast and even distribution. For guaranteed harmonization of contrast in only 5 minutes.  Price: $8.25",
+            "display_price": "false",
+            "images": {
+                "default": {
+                    "title": "New Blonde",
+                    "url": "http://sasa.salonlibrary.com/library/preview/44cc1718f148a5547e9c548eeaca4185.png"
+                }
+            },
+            "prices": [{
+                    "title": "each",
+                    "price": 10.75,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 8.25,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/Goldwell New Blonde Fact Sheet 01-2015.pdf"
+            }]
+        },
+        {
+            "productId": 1016,
+            "title": "System Support Products",
+            "categoryId": 1910,
+            "brand": "System",
+            "description": "SYSTEM COLOR REMOVER SKIN: For the effective, yet gentle removal of skin staining. Ready-to-use, mild lotion. Dermatologically tested.  Price: $7.75 <br><br>BONDPRO+: SUPERIOR RELIABILITY - NO VISIBLE DILUTION - EASY 2-STEP APPLICATION - NO ADDITIONAL PROCESSING TIMEPROTECTION SERUM: Penetrates the hair fiber and protects it from within during alkaline bleaching, coloring and texturizing processes. Strengthens hair and prevents breakage.  Price: $80.00 <br><br>NOURISHING FORTIFIER: A rich, intensive treatment that reinforces the bonds within the hair. Each hair fiber is strengthened and deeply nourished.  Price: $45.00 <br><br>@PURE PIGMENTS: high definition direct dye additives that can be customized to create unique color reflections in the hair — like light passing through a prism. Integrate into your oxidative hair color for dimensional pastels, boosted vivids and never-before seen color morphing effects.  Price: $29.95 <br><br>SYSTEM THICKENER: A concentrated Thickening Fluid that empowers you to control and customize the consistency of your color and lightener products.  Price: $24.50 <br><br>SYSTEM EQUALIZER SPRAY: Instantly equalizes structural differences and optimizes the color deposit in the hair structure. Use before any color service (excluding ELUMEN) for more even color results.  Price: $12.50",
+            "display_price": "false",
+            "images": {
+                "default": {
+                    "title": "System",
+                    "url": "http://sasa.salonlibrary.com/library/preview/a0f91b7dc5f400aefae84a24e8d6ef2e.png"
+                }
+            },
+            "prices": [{
+                    "title": "each",
+                    "price": 7.75,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 80.00,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 45.00,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 29.95,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 24.50,
+                    "sku": ""
+                },
+                {
+                    "title": "each",
+                    "price": 12.50,
+                    "sku": ""
+                }
+            ],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/GW System Activation Guide 03-2019.pdf"
+            }]
+        },
+        {
+            "productId": 1017,
+            "title": "Soft Color Semi-Permanent Color Foam",
+            "categoryId": 1340,
+            "brand": "Soft Color",
+            "description": "Directly absorbing color foam for brilliant color results in only 5 minutes. For shiny hair – easy to comb. For your salon and your client at home.",
+            "display_price": "true",
+            "images": {
+                "default": {
+                    "title": "Soft Color",
+                    "url": "http://sasa.salonlibrary.com/library/preview/ba4201b39f83fc69121a8548a154af52.png"
+                }
+            },
+            "prices": [{
+                "title": "each",
+                "price": 8.75,
+                "sku": ""
+            }],
+            "pdf_url": [{
+                "title": "",
+                "url": "/Uploaded/warehouse/2017 GW Soft Color Fact Sheet.pdf"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+<!-- **** FILE HEADER **** -->
+<!---
+  ---	Copyright (C) 2019 Vanson Technology Services, Inc. All rights reserved.
+  ---	FILE:       HOUserEdit.cfm
+  ---	CREATED:    12/14/11
+  ---   AUTHOR:     Jon Holland
+  ---	EDITED:     11/14/19
+  ---	EDITOR:     Jason Ruby
+  --->
+
+
+<!-- **** COMMENTS **** -->
+
+<!--- TODO: move to javascript file --->
+
+<!--- **** START: search filter **** --->
+
+<!--- **** START: create/update form **** --->
+
+<!--- **** START: result table **** --->
+
+
+<!-- **** PAGE TITLE **** -->
+<div class="container-fluid">
+    <br>
+    <div class="text-center align-middle">
+        <cfif mHOPromotionID NEQ 0>
+            <h2>Edit/Update XXXXX</h2>
+            <cfelse>
+                <h2>Add/Create XXXXX</h2>
+        </cfif>
+    </div>
+    <br>
+
+    <!-- </div> -->
+
+    <!-- **** SEARCH/FILTER INPUTS **** -->
+    <div class="row col-8 offset-2">
+        <div class="col-1 offset-4 form-group">
+            <label for="">XXXXX <small><i class="far fa-question-circle" title="Input the promotion ID on which to search."></i></small></label>
+            <input type="" class="form-control form-control-sm" name="" value="##" title="Input the promotion ID on which to search.">
+        </div>
+
+        <div class="col-2 form-group">
+            <label for="">XXXXX <small><i class="far fa-question-circle tip" title='Select the current status (e.g. active or expired) of the promotion on which to search, or select "Any" to search for all promotions regardless of status.'></i></small></label>
+            <select class="custom-select custom-select-sm" name="" title='Select the current status (e.g. active or expired) of the promotion on which to search, or select "Any" to search for all promotions regardless of status.'>
+                <option value="">Any</option>
+                <option value="1" <cfif EQ 1> selected</cfif>></option>
+                <option value="0" <cfif EQ 0> selected</cfif>></option>
+            </select>
+        </div>
+    </div>
+
+
+    <!-- **** SEARCH/CANCEL BUTTON **** -->
+    <div class="row col-3 offset-4">
+        <div class="col-6 form-group text-right">
+            <input type="hidden" name="Search" value="1">
+            <!-- <input type="hidden" name="PageNumber" value="1"> -->
+            <button class="btn btn-success btn-sm" role="button" onclick="document.search.excel.value=0;" title='Search based on parameters supplied in above input(s).'><i class="fas fa-search"></i> Search</button>
+            &nbsp;
+            <button type="button" class="btn btn-sm btn-info" role="button" onclick="history.back()" title='Cancel current action and return to previous page.'><i class="far fa-window-close"></i> Cancel</button>
+        </div>
+    </div>
+
+
+    <!-- **** ADD NEW BUTTON **** -->
+    <!--- add new button --->
+    <br>
+    <div class="row col-8 offset-2">
+        <div class="col-12 form-group text-right">
+            <a href="" class="btn btn-info btn-sm" role="button" title="Add new XXXXX."><i class="far fa-plus-square"></i> New XXXXX</a>
+        </div>
+    </div>
+
+
+    <!--- add new button --->
+    <cfif listFindNoCase(valueList(request.securityPages.pageName), "HOUserEdit.cfm" )>
+        <br>
+        <div class="row" id="toolbar">
+            <div class="col-sm-12 text-right">
+                <a href="HOUserEdit.cfm" class="btn btn-info btn-sm" role="button" title="Add a new user."><i class="far fa-plus-square"></i> New User</a>
+            </div>
+        </div>
+    </cfif>
+
+
+    <!-- **** TABLE **** -->
+    <div class="col-8 offset-2">
+        <table class="table table-sm table-hover table-striped table-borderless">
+            <thead class="thead-dark">
+                <tr>
+                    <th class="text-center align-middle"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <td class="text-center align-middle"></td>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- **** MESSAGE ALERT **** -->
+    <div class="col-8 offset-2">
+        <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+            <strong>#mMessage#</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- **** TITLES **** -->
+    <!-- Search Button -->
+    title='Search based on parameters supplied in above input(s).'
+
+    <!-- Save Button -->
+    title='Save all edits.'
+
+    <!-- Cancle Button -->
+    title='Cancel current action without saving. Return to previous page.'
+
+    <!-- Edit Button -->
+    title="Edit XXXX."
