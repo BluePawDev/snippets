@@ -23,4 +23,25 @@
         <cfreturn strHelloMessage />
     </cffunction>
 
+    <cfoutput>
+        <cffunction name="baseNumber" returnType="numeric">
+            <cfargument name="a" type="numeric" required="true" />
+            <cfset var x=arguments.a />
+            <cfreturn x />
+        </cffunction>
+
+        <cffunction name="multiplyNumbers" returnType="string">
+            <cfargument name="a" type="numeric" required="true" />
+            <cfargument name="b" type="numeric" required="true" />
+            <!--- multiply basenumber value by 10 --->
+            <cfset var x=10 />
+            <cfset var y=baseNumber(a) />
+            <cfreturn y & " multiplied by " & x & " = " & x * arguments.b />
+        </cffunction>
+
+        <cfloop from="1" to="10" index="i">
+            #multiplyNumbers(i,i)#<br />
+        </cfloop>
+    </cfoutput>
+
 </cfcomponent>
