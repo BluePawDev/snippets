@@ -48,5 +48,19 @@
         <cfreturn rstContact />
     </cffunction>
 
+    <cffunction name="" access="" returntype="" output="false" hint="">
+        <cfargument name="" required="" type="string" default="" />
+        <cfargument name="" required="" type="string" default="" />
+        <cfqueryparam value="" cfsqltype="" maxlength= />
+        <cfquery name="" dbtype="" maxrows="">
+            SELECT
+            FROM
+            WHERE
+        </cfquery>
+
+
+        <cfreturn  />
+    </cffunction>
+
 
 </cfcomponent>
